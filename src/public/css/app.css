@@ -1,0 +1,9 @@
+h1 {
+  color: red; }
+
+.card-course-item {
+  margin-left: 1rem;
+  margin-bottom: 1rem; }
+
+a:link {
+  text-decoration: none; }
