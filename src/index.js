@@ -7,6 +7,9 @@ const db = require('./config/db');
 
 const app = express();
 const port = 3000;
+app.use(express.json());
+app.use(express.urlencoded({ extended: true}));
+
 const engine = handlebars.engine;
 app.engine('.hbs', engine({ extname: '.hbs'}));
 app.set('view engine', '.hbs');
